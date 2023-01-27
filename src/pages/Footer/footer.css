@@ -1,0 +1,56 @@
+.footer{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+
+.ul3{
+    display: flex;
+    align-items: center;
+    gap: 3.4rem;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul4{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3rem;
+    gap: 3.3rem;
+    padding-bottom: 5rem;
+}
+
+.li1{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.border{
+    opacity: 0.3;
+    border: 1px solid #000000;
+}
+
+.p1{
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    padding-top: 4rem;
+    opacity: 0.2;
+}

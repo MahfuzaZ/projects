@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+
+.showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15rem;
+    gap: 5rem;
+}
+h3{
+    font-family: 'Gambero';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.p{
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.7;
+    max-width: 35rem;
+}
+
+.cards2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20rem;
+    gap: 3rem;
+    padding-bottom: 10rem;
+    /* align-items: center; */
+}
+
+
+button{
+    font-family: 'Podkova';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    text-align: center;
+    background: #DC8B15;
+    border-radius: 8px;
+    /* display: flex; */
+    padding: 18px 75px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    align-self: center;
+    border: 1px solid transparent;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #DC8B15;
+    border: #DC8B15 1px solid;
+}
+
+h4{
+    font-family: 'Gambero';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.section-1{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 90%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p2{
+    font-family: 'Gambero';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    max-width: 70rem;
+    line-height: 46px;
+    letter-spacing: -0.01em;   
+    color: #000000;
+}
+
+.section-2{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 90%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.ul2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+
+}
+
+.active{
+    font-family: 'Gambero';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.active:hover{
+    color: #000000;
+    opacity: 0.5;
+}
+
+li{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    /* line-height: 34px;  */
+    color: #000000;
+    cursor: pointer;
+}
